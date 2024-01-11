@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: brown;
+    font-size: 20px;
+    text-decoration: wavy;
+    color: aliceblue;
+    padding: 1em;
+}
+
+nav{
+    background-color: whitesmoke;
+    font-size: 18px;
+    padding: 1em;
+    color: brown;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top-menu a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.top-menu a:hover{
+    color: black;
+}
+
+section{
+
+}
+
+footer{
+    background-color: whitesmoke;
+    color: brown;
+    padding: 1em;
+}
+
+h2{
+
+}
+
+p{
+
+}
+
+img{
+
+}
