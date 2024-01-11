@@ -39,14 +39,11 @@ nav ul{
     color: black;
 }
 
-section{
-
-}
-
 footer{
-    background-color: whitesmoke;
-    color: brown;
-    padding: 1em;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 h1{
@@ -75,5 +72,6 @@ a:visited{
 }
 
 img{
-
+    max-width: 500px;
+    border: 2px solid black;
 }
