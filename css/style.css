@@ -49,12 +49,29 @@ footer{
     padding: 1em;
 }
 
-h2{
-
+h1{
+    font-family: cursive;
+    color: brown;
+    margin: 10px;
 }
 
-p{
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
 
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;  
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: red;
 }
 
 img{
