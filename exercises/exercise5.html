@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics - Exercise 5</title>
+    <style>
+        header, main, footer{
+            display: flex;
+        }
+        section{
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 1em;
+            margin: 2px;
+        }
+        nav{
+            padding: 1em;
+            min-width: 90px;
+        }
+        header{
+            background-color: brown;
+            font-size: 18px;
+            text-decoration: wavy;
+            color: aliceblue;
+            padding: 1em;
+            place-content: center;
+        }
+        footer{
+            background-color: brown;
+            font-size: 18px;
+            text-decoration: wavy;
+            color: aliceblue;
+            padding: 1em;
+            place-content: center;
+        }
+        article{
+            background-color: whitesmoke;
+            font-size: 18px;
+            padding: 1em;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flex Box Examples</h1>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <h3>side bar</h3>
+                <h3>side bar</h3>
+                <h3>side bar</h3>
+                <h3>side bar</h3>
+                <h3>side bar</h3>
+            </nav>
+        </aside>
+        <section>
+            <article>
+                <h2>What is HTML</h2>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque minus nostrum architecto odio, 
+                    ipsam repudiandae officia adipisci esse eum. Eum aut ipsum iste minus et voluptas ipsam accusantium ab amet.
+                </p>
+            </article>
+            <article>
+                <h2>HTML Elements</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nisi dolores vero amet facere quaerat, 
+                    tenetur quam sed ea! Dicta fuga ullam ut quam consequuntur? Similique quos eaque possimus libero?
+                </p>
+            </article>
+            <article>
+                <h2>Bloc Level Elements</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, animi repellendus nihil possimus 
+                    perspiciatis vero praesentium repudiandae fugit maiores assumenda ipsum in ea ut sed mollitia sunt deleniti 
+                    pariatur quisquam!
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h1>Learning Flex @ 2024</h1>
+    </footer>
+</body>
+</html>
