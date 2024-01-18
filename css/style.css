@@ -75,3 +75,9 @@ img{
     max-width: 600px;
     border: 2px solid black;
 }
+.indexFooter{
+    background-color: brown;
+    text-decoration: wavy;
+    color: aliceblue;
+    padding: 1em;
+}
