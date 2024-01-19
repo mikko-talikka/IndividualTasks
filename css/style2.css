@@ -1,0 +1,35 @@
+header, main, footer{
+    display: flex;
+}
+section{
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 2px;
+}
+nav{
+    padding: 1em;
+    min-width: 90px;
+}
+header{
+    background-color: brown;
+    font-size: 18px;
+    text-decoration: wavy;
+    color: aliceblue;
+    padding: 1em;
+    place-content: center;
+}
+footer{
+    background-color: brown;
+    font-size: 18px;
+    text-decoration: wavy;
+    color: aliceblue;
+    padding: 1em;
+    place-content: center;
+}
+article{
+    background-color: whitesmoke;
+    font-size: 18px;
+    padding: 1em;
+    color: brown;
+}
